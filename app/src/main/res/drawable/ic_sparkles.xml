@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Big Star -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 10,2 C 11,8 14,11 20,12 C 14,13 11,16 10,22 C 9,16 6,13 0,12 C 6,11 9,8 10,2 Z" />
+
+    <!-- Small Star Top Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 18,2 C 18.5,5 20,6.5 23,7 C 20,7.5 18.5,9 18,12 C 17.5,9 16,7.5 13,7 C 16,6.5 17.5,5 18,2 Z" />
+
+    <!-- Small Star Bottom Right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 16,16 C 16.5,18 17.5,19 19.5,19.5 C 17.5,20 16.5,21 16,23 C 15.5,21 14.5,20 12.5,19.5 C 14.5,19 15.5,18 16,16 Z" />
+</vector>

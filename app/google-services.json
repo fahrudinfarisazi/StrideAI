@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "426721237664",
+    "project_id": "strideai-3b7d4",
+    "storage_bucket": "strideai-3b7d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426721237664:android:9b69b55fd1e1166a1647c5",
+        "android_client_info": {
+          "package_name": "com.faris.strideai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426721237664-kuk0h1fom5eejeq4ivhp2hpjagir5v44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faris.strideai",
+            "certificate_hash": "3ccde6cd6e4e28ceb265aa937a50cd7c072fbc29"
+          }
+        },
+        {
+          "client_id": "426721237664-2bb7muig4j72e4h6d5qnlistvf1slg3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb5O94mCdhYR65oub9rl7gvUiVxT1DLVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426721237664-2bb7muig4j72e4h6d5qnlistvf1slg3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dynamic Theme Colors (Dark Mode) - SLEEK & FUTURISTIC -->
+    <color name="bg_color">#0B1120</color> <!-- Sangat gelap, navy kehitaman untuk OLED vibe -->
+    <color name="card_bg_color">#1E293B</color> <!-- Slate 800: gelap kebiruan elegan untuk kartu -->
+    <color name="input_bg_color">#0F172A</color> <!-- Lebih gelap dari kartu untuk input box -->
+    
+    <color name="text_primary">#F8FAFC</color> <!-- Putih terang untuk keterbacaan tinggi -->
+    <color name="text_secondary">#94A3B8</color> <!-- Slate 400: abu-abu kalem untuk sub-teks -->
+    <color name="text_inverse">#FFFFFF</color> <!-- Teks putih di atas tombol aksen -->
+    
+    <color name="color_primary">#38BDF8</color> <!-- Sky Blue yang lebih vibrant dan modern dibanding cyan biasa -->
+    <color name="color_primary_dark">#0284C7</color> <!-- Biru dalam untuk tombol agar kontras dengan teks putih -->
+</resources>

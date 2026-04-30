@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+
+    <!-- Gradient Fill below the line -->
+    <path
+        android:pathData="M 0,60 C 20,40 40,40 60,60 C 80,80 90,80 110,60 C 130,30 150,20 170,40 C 185,55 195,60 200,65 L 200,80 L 0,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="20"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0" android:color="#4000FFFF" />
+                <item android:offset="1" android:color="#0000FFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- The actual line path -->
+    <path
+        android:pathData="M 0,60 C 20,40 40,40 60,60 C 80,80 90,80 110,60 C 130,30 150,20 170,40 C 185,55 195,60 200,65"
+        android:strokeColor="#00FFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

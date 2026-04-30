@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Legacy static colors for backward compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="navy_blue">#0A1931</color>
+    <color name="neon_blue">#00D4FF</color>
+    <color name="dark_grey">#1C2331</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Dynamic Theme Colors (Light Mode) - PREMIUM & CLEAN -->
+    <color name="bg_color">#F4F7F6</color> <!-- Sangat soft abu-abu/putih untuk background -->
+    <color name="card_bg_color">#FFFFFF</color> <!-- Putih bersih untuk kartu -->
+    <color name="input_bg_color">#E9ECEF</color> <!-- Abu-abu muda untuk kotak input -->
+    
+    <color name="text_primary">#1A1D20</color> <!-- Hitam keabu-abuan untuk teks utama agar tidak membuat mata sakit -->
+    <color name="text_secondary">#6C757D</color> <!-- Abu-abu medium untuk sub-teks -->
+    <color name="text_inverse">#FFFFFF</color> <!-- Putih untuk teks di dalam tombol -->
+    
+    <color name="color_primary">#2563EB</color> <!-- Biru modern yang sangat elegan & energetic (Royal Blue) -->
+    <color name="color_primary_dark">#1D4ED8</color> <!-- Biru yang sedikit lebih gelap untuk tombol -->
+</resources>
