@@ -523,6 +523,10 @@ public class MainActivity extends AppCompatActivity implements android.hardware.
         View btnLogout = findViewById(R.id.btnLogout);
         if (btnLogout != null) {
             btnLogout.setOnClickListener(v -> {
+                // Clear all local preferences so new user doesn't see old user's data
+                getSharedPreferences("StrideAI_Prefs", MODE_PRIVATE).edit().clear().apply();
+                getSharedPreferences("StrideAI_Sessions", MODE_PRIVATE).edit().clear().apply();
+
                 FirebaseAuth.getInstance().signOut();
                 GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                         .requestIdToken(getString(R.string.default_web_client_id))
